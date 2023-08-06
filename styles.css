@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.profile p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    padding-right: 18px;
+    color: brown;
+}
+
+
+.profile img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.profile h1 {
+    margin: 10px 0;
+}
+
+.profile p {
+    margin: 5px 0;
+}
+
+.profile a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #4183C4;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+section {
+    width: 45%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.repositories ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.repositories li {
+    margin-bottom: 10px;
+}
+
+.repositories a {
+    color: #4183C4;
+    text-decoration: none;
+}
+
+.contributions-graph {
+    /* Add styles for contributions graph here */
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
